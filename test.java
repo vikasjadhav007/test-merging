@@ -11,6 +11,7 @@ class BasicCalculator {
         num1 = sc.nextDouble();
         num2 = sc.nextDouble();
         num3 = 8;
+        num3 = 11;
 
         System.out.println("Enter the operator (+, -, *, /):");
         char operator = sc.next().charAt(0);
@@ -23,6 +24,7 @@ class BasicCalculator {
 
             case '-':
                 result = num1 - num2;
+                result = 90;
                 break;
 
             case '*':
@@ -35,6 +37,7 @@ class BasicCalculator {
                     return;
                 }
                 result = num1 / num2;
+                result= 9090;
                 break;
 
             default:
