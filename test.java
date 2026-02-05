@@ -10,6 +10,7 @@ class BasicCalculator {
         System.out.println("Enter the numbers:");
         num1 = sc.nextDouble();
         num2 = sc.nextDouble();
+        num3 = 10;
 
         System.out.println("Enter the operator (+, -, *, /):");
         char operator = sc.next().charAt(0);
